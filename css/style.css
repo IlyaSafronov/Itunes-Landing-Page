@@ -40,6 +40,11 @@ a {
   font-size: 2rem;
 }
 
+section#entertainment {
+  background: url(../img/section-bg.jpg) no-repeat bottom/cover;
+  padding: 10rem 0;
+}
+
 
 /* !Text colors */
 .text-primary {
@@ -52,6 +57,11 @@ a {
 
 .text-light {
   color: var(--light-color);
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
 }
 
 /* ! Showcase */
